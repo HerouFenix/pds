@@ -41,10 +41,10 @@ class CompanyAdapter{
 
     public void printAllEmployees(){
         for(Employee i : this.db.getAllEmployees()){
-            System.out.println(i);
+            System.out.println(i.getName());
         } 
         for(Empregado i : this.reg.listaDeEmpregados()){
-            System.out.println(i);
+            System.out.println(i.nome() + " " + i.apelido());
         } 
     }
 }

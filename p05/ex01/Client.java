@@ -1,5 +1,8 @@
 package p05.ex01;
 
+//Patterns used:
+//  -Factory Pattern (Creation of Beverages,Meats and COntainers)
+
 class Client{
     public static void main(String[] args) {
         Commodity[] menu = new Commodity[2];

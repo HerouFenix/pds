@@ -2,8 +2,14 @@ package p06.ex02;
 import java.io.File;
 import java.util.List;
 
+//Patterns used:
+//  -Bridge Pattern (kinda, tenho que refazer este ex, pretty messy but works) 
 
-class Main{
+//Other stuff used:
+//  -Java Reflection
+
+
+class Client{
     public static void main(String[] args){
         ContactsImp addressManager = new ContactsImp();
 

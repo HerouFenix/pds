@@ -1,6 +1,9 @@
 package p05.ex02;
 
-class Main{
+//Patterns used:
+//  -Builder Pattern (Defenition of various Lunches using the LunchBuilder - Builds the Lunches ; LunchDirector - Calls the specific LunchBuilder methods)
+
+class Client{
     public static void main(String[] args) {
         LunchBuilder lunch = new CrastoLunchBuilder();
         LunchDirector mealDirector = new LunchDirector(lunch);   
