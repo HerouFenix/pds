@@ -1,0 +1,11 @@
+Written by Vasco - GitHub: BlasphemyCoder
+
+2)
+
+* java.nio.OutputStream - O método template está contido em <<< public void write(byte b[], int off, int len) >>> que, por sua vez, chama um método <<<public abstract void write(int b), 
+ >>> que tem de ser implementado pela subclass OutputStream.
+ 
+* java.nio.InputStream - O método template está contido em <<< public int read(int b) >>> que, por sua vez, chama um método <<< public int write(byte b[], int off, int len) >>> que 
+tem de ser implementado pela subclass Inputstream.
+
+* java.util.AbstractList - presente nos métodos add e remove
