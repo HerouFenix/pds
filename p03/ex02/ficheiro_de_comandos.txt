@@ -1,0 +1,11 @@
+Load aula03/ex2/test_file.txt
+Map
+Add vasco 10 20
+Map
+Lookup
+vasco
+Remove
+vasco
+Map
+Clear
+Quit

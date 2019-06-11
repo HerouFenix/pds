@@ -1,0 +1,12 @@
+add alfredo 1 2
+add rui 1 2
+add mafalda 1 2
+add paula 1 2
+add al32@ua.pt 1 2
+add lara 4 6
+add kkgb 7 9
+add t75673 4 6
+add hugo_123 7 9
+list
+map
+quit
