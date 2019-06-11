@@ -4,6 +4,8 @@ package p06.ex01;
 //  -Adapter Pattern (Adapter used to adapt the 2 legacy Database/Employee classes we were given into a single interface)
 //Other stuff useD:
 //  -IMMUTABLE LIST!!! (unmodifiable)
+//Note:
+//  -I could've/should've also implemented an ITERATOR on both Database and Registos!
 
 class Client{
     public static void main(String[] args) {
