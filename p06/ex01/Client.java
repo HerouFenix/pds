@@ -2,6 +2,8 @@ package p06.ex01;
 
 //Patterns used:
 //  -Adapter Pattern (Adapter used to adapt the 2 legacy Database/Employee classes we were given into a single interface)
+//Other stuff useD:
+//  -IMMUTABLE LIST!!! (unmodifiable)
 
 class Client{
     public static void main(String[] args) {

@@ -1,5 +1,7 @@
 package p06.ex01;
 import java.util.Vector;
+import java.util.List;
+import java.util.Collections;
 
 class Database {
     // Data elements
@@ -35,7 +37,11 @@ class Database {
         }
     }
 
-    public Employee[] getAllEmployees() {
-        return this.employees.toArray(new Employee[this.employees.size()]);
+    public List<Employee> getAllEmployees() {
+        //return this.employees.toArray(new Employee[this.employees.size()]); NOT SAFE :(
+        
+        //Note: Unmodifiable list syntax:
+        List<Employee> immutablelist = Collections.unmodifiableList(this.employees);
+        return immutablelist;
     }
 }

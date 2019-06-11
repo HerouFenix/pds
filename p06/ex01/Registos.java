@@ -1,6 +1,7 @@
 package p06.ex01;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Collections;
 
 class Registos {
     // Data elements
@@ -47,6 +48,7 @@ class Registos {
     }
 
     public List<Empregado> listaDeEmpregados() {
-        return this.empregados;
+        List<Empregado> immutablelist = Collections.unmodifiableList(this.empregados);
+        return immutablelist;
     }
 }
